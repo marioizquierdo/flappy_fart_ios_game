@@ -1,6 +1,5 @@
 //
 //  FFViewController.h
-//  fappy fart
 //
 
 //  Copyright (c) 2014 tothemario. All rights reserved.

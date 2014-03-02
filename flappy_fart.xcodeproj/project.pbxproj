@@ -11,19 +11,20 @@
 		AC119A7718B186EB0043F753 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC119A7618B186EB0043F753 /* CoreGraphics.framework */; };
 		AC119A7918B186EB0043F753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC119A7818B186EB0043F753 /* UIKit.framework */; };
 		AC119A7B18B186EB0043F753 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC119A7A18B186EB0043F753 /* SpriteKit.framework */; };
-		AC119A8118B186EB0043F753 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC119A7F18B186EB0043F753 /* InfoPlist.strings */; };
-		AC119A8318B186EB0043F753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC119A8218B186EB0043F753 /* main.m */; };
-		AC119A8718B186EB0043F753 /* FFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC119A8618B186EB0043F753 /* FFAppDelegate.m */; };
-		AC119A8A18B186EB0043F753 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC119A8818B186EB0043F753 /* Main_iPhone.storyboard */; };
-		AC119A8D18B186EB0043F753 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC119A8B18B186EB0043F753 /* Main_iPad.storyboard */; };
-		AC119A9018B186EB0043F753 /* FFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC119A8F18B186EB0043F753 /* FFViewController.m */; };
-		AC119A9318B186EB0043F753 /* FFMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AC119A9218B186EB0043F753 /* FFMyScene.m */; };
-		AC119A9718B186EB0043F753 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC119A9618B186EB0043F753 /* Images.xcassets */; };
 		AC119AB818B18B610043F753 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC119AB518B18B610043F753 /* background-music-aac.caf */; };
 		AC119AB918B18B610043F753 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC119AB618B18B610043F753 /* pew-pew-lei.caf */; };
 		AC119ABA18B18B610043F753 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AC119AB718B18B610043F753 /* sprites.atlas */; };
-		AC119ABD18B196B50043F753 /* FFGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AC119ABC18B196B50043F753 /* FFGameOverScene.m */; };
-		AC119AC118B1E0000043F753 /* FFPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC119AC018B1E0000043F753 /* FFPlayer.m */; };
+		ACDEE09818C2BE7B001556DA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDEE08318C2BE7B001556DA /* Main_iPad.storyboard */; };
+		ACDEE09918C2BE7B001556DA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDEE08518C2BE7B001556DA /* Main_iPhone.storyboard */; };
+		ACDEE09A18C2BE7B001556DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACDEE08718C2BE7B001556DA /* InfoPlist.strings */; };
+		ACDEE09B18C2BE7B001556DA /* FFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDEE08A18C2BE7B001556DA /* FFAppDelegate.m */; };
+		ACDEE09C18C2BE7B001556DA /* FFGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDEE08D18C2BE7B001556DA /* FFGameOverScene.m */; };
+		ACDEE09D18C2BE7B001556DA /* FFMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDEE08F18C2BE7B001556DA /* FFMyScene.m */; };
+		ACDEE09E18C2BE7B001556DA /* FFPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDEE09118C2BE7B001556DA /* FFPlayer.m */; };
+		ACDEE09F18C2BE7B001556DA /* FFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDEE09318C2BE7B001556DA /* FFViewController.m */; };
+		ACDEE0A018C2BE7B001556DA /* flappy_fart-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACDEE09418C2BE7B001556DA /* flappy_fart-Info.plist */; };
+		ACDEE0A118C2BE7B001556DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDEE09618C2BE7B001556DA /* Images.xcassets */; };
+		ACDEE0A218C2BE7B001556DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDEE09718C2BE7B001556DA /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,28 +33,28 @@
 		AC119A7618B186EB0043F753 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AC119A7818B186EB0043F753 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AC119A7A18B186EB0043F753 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		AC119A7E18B186EB0043F753 /* flappy_fart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flappy_fart-Info.plist"; sourceTree = "<group>"; };
-		AC119A8018B186EB0043F753 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AC119A8218B186EB0043F753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AC119A8418B186EB0043F753 /* flappy_fart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flappy_fart-Prefix.pch"; sourceTree = "<group>"; };
-		AC119A8518B186EB0043F753 /* FFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFAppDelegate.h; sourceTree = "<group>"; };
-		AC119A8618B186EB0043F753 /* FFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFAppDelegate.m; sourceTree = "<group>"; };
-		AC119A8918B186EB0043F753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		AC119A8C18B186EB0043F753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		AC119A8E18B186EB0043F753 /* FFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFViewController.h; sourceTree = "<group>"; };
-		AC119A8F18B186EB0043F753 /* FFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFViewController.m; sourceTree = "<group>"; };
-		AC119A9118B186EB0043F753 /* FFMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFMyScene.h; sourceTree = "<group>"; };
-		AC119A9218B186EB0043F753 /* FFMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFMyScene.m; sourceTree = "<group>"; };
-		AC119A9618B186EB0043F753 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AC119A9D18B186EB0043F753 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AC119AB518B18B610043F753 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		AC119AB618B18B610043F753 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 		AC119AB718B18B610043F753 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
-		AC119ABB18B196B50043F753 /* FFGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGameOverScene.h; sourceTree = "<group>"; };
-		AC119ABC18B196B50043F753 /* FFGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGameOverScene.m; sourceTree = "<group>"; };
-		AC119ABF18B1E0000043F753 /* FFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPlayer.h; sourceTree = "<group>"; };
-		AC119AC018B1E0000043F753 /* FFPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPlayer.m; sourceTree = "<group>"; };
-		AC119AC218B1E7BA0043F753 /* FFContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFContants.h; sourceTree = "<group>"; };
+		ACDEE08418C2BE7B001556DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		ACDEE08618C2BE7B001556DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		ACDEE08818C2BE7B001556DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACDEE08918C2BE7B001556DA /* FFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAppDelegate.h; sourceTree = "<group>"; };
+		ACDEE08A18C2BE7B001556DA /* FFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAppDelegate.m; sourceTree = "<group>"; };
+		ACDEE08B18C2BE7B001556DA /* FFContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFContants.h; sourceTree = "<group>"; };
+		ACDEE08C18C2BE7B001556DA /* FFGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGameOverScene.h; sourceTree = "<group>"; };
+		ACDEE08D18C2BE7B001556DA /* FFGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFGameOverScene.m; sourceTree = "<group>"; };
+		ACDEE08E18C2BE7B001556DA /* FFMyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMyScene.h; sourceTree = "<group>"; };
+		ACDEE08F18C2BE7B001556DA /* FFMyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMyScene.m; sourceTree = "<group>"; };
+		ACDEE09018C2BE7B001556DA /* FFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPlayer.h; sourceTree = "<group>"; };
+		ACDEE09118C2BE7B001556DA /* FFPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPlayer.m; sourceTree = "<group>"; };
+		ACDEE09218C2BE7B001556DA /* FFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFViewController.h; sourceTree = "<group>"; };
+		ACDEE09318C2BE7B001556DA /* FFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFViewController.m; sourceTree = "<group>"; };
+		ACDEE09418C2BE7B001556DA /* flappy_fart-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "flappy_fart-Info.plist"; sourceTree = "<group>"; };
+		ACDEE09518C2BE7B001556DA /* flappy_fart-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "flappy_fart-Prefix.pch"; sourceTree = "<group>"; };
+		ACDEE09618C2BE7B001556DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACDEE09718C2BE7B001556DA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +75,8 @@
 		AC119A6818B186EB0043F753 = {
 			isa = PBXGroup;
 			children = (
+				ACDEE08218C2BE7B001556DA /* flappy_fart */,
 				AC119AB318B18B610043F753 /* SpriteKitSimpleGameResources */,
-				AC119A7C18B186EB0043F753 /* flappy_fart */,
 				AC119A7318B186EB0043F753 /* Frameworks */,
 				AC119A7218B186EB0043F753 /* Products */,
 			);
@@ -101,39 +102,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AC119A7C18B186EB0043F753 /* flappy_fart */ = {
-			isa = PBXGroup;
-			children = (
-				AC119ABE18B1DFC90043F753 /* models */,
-				AC119A8518B186EB0043F753 /* FFAppDelegate.h */,
-				AC119A8618B186EB0043F753 /* FFAppDelegate.m */,
-				AC119A8818B186EB0043F753 /* Main_iPhone.storyboard */,
-				AC119A8B18B186EB0043F753 /* Main_iPad.storyboard */,
-				AC119A8E18B186EB0043F753 /* FFViewController.h */,
-				AC119A8F18B186EB0043F753 /* FFViewController.m */,
-				AC119A9118B186EB0043F753 /* FFMyScene.h */,
-				AC119A9218B186EB0043F753 /* FFMyScene.m */,
-				AC119A9618B186EB0043F753 /* Images.xcassets */,
-				AC119A7D18B186EB0043F753 /* Supporting Files */,
-				AC119ABB18B196B50043F753 /* FFGameOverScene.h */,
-				AC119ABC18B196B50043F753 /* FFGameOverScene.m */,
-				AC119AC218B1E7BA0043F753 /* FFContants.h */,
-			);
-			name = flappy_fart;
-			path = "fappy fart";
-			sourceTree = "<group>";
-		};
-		AC119A7D18B186EB0043F753 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AC119A7E18B186EB0043F753 /* flappy_fart-Info.plist */,
-				AC119A7F18B186EB0043F753 /* InfoPlist.strings */,
-				AC119A8218B186EB0043F753 /* main.m */,
-				AC119A8418B186EB0043F753 /* flappy_fart-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		AC119AB318B18B610043F753 /* SpriteKitSimpleGameResources */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,13 +120,29 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
-		AC119ABE18B1DFC90043F753 /* models */ = {
+		ACDEE08218C2BE7B001556DA /* flappy_fart */ = {
 			isa = PBXGroup;
 			children = (
-				AC119ABF18B1E0000043F753 /* FFPlayer.h */,
-				AC119AC018B1E0000043F753 /* FFPlayer.m */,
+				ACDEE08318C2BE7B001556DA /* Main_iPad.storyboard */,
+				ACDEE08518C2BE7B001556DA /* Main_iPhone.storyboard */,
+				ACDEE08718C2BE7B001556DA /* InfoPlist.strings */,
+				ACDEE08918C2BE7B001556DA /* FFAppDelegate.h */,
+				ACDEE08A18C2BE7B001556DA /* FFAppDelegate.m */,
+				ACDEE08B18C2BE7B001556DA /* FFContants.h */,
+				ACDEE08C18C2BE7B001556DA /* FFGameOverScene.h */,
+				ACDEE08D18C2BE7B001556DA /* FFGameOverScene.m */,
+				ACDEE08E18C2BE7B001556DA /* FFMyScene.h */,
+				ACDEE08F18C2BE7B001556DA /* FFMyScene.m */,
+				ACDEE09018C2BE7B001556DA /* FFPlayer.h */,
+				ACDEE09118C2BE7B001556DA /* FFPlayer.m */,
+				ACDEE09218C2BE7B001556DA /* FFViewController.h */,
+				ACDEE09318C2BE7B001556DA /* FFViewController.m */,
+				ACDEE09418C2BE7B001556DA /* flappy_fart-Info.plist */,
+				ACDEE09518C2BE7B001556DA /* flappy_fart-Prefix.pch */,
+				ACDEE09618C2BE7B001556DA /* Images.xcassets */,
+				ACDEE09718C2BE7B001556DA /* main.m */,
 			);
-			name = models;
+			path = flappy_fart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,12 +199,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC119AB918B18B610043F753 /* pew-pew-lei.caf in Resources */,
+				ACDEE0A118C2BE7B001556DA /* Images.xcassets in Resources */,
+				ACDEE0A018C2BE7B001556DA /* flappy_fart-Info.plist in Resources */,
+				ACDEE09A18C2BE7B001556DA /* InfoPlist.strings in Resources */,
+				ACDEE09818C2BE7B001556DA /* Main_iPad.storyboard in Resources */,
+				ACDEE09918C2BE7B001556DA /* Main_iPhone.storyboard in Resources */,
 				AC119ABA18B18B610043F753 /* sprites.atlas in Resources */,
-				AC119A9718B186EB0043F753 /* Images.xcassets in Resources */,
 				AC119AB818B18B610043F753 /* background-music-aac.caf in Resources */,
-				AC119A8D18B186EB0043F753 /* Main_iPad.storyboard in Resources */,
-				AC119A8A18B186EB0043F753 /* Main_iPhone.storyboard in Resources */,
-				AC119A8118B186EB0043F753 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,40 +216,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC119A8718B186EB0043F753 /* FFAppDelegate.m in Sources */,
-				AC119A8318B186EB0043F753 /* main.m in Sources */,
-				AC119AC118B1E0000043F753 /* FFPlayer.m in Sources */,
-				AC119A9318B186EB0043F753 /* FFMyScene.m in Sources */,
-				AC119A9018B186EB0043F753 /* FFViewController.m in Sources */,
-				AC119ABD18B196B50043F753 /* FFGameOverScene.m in Sources */,
+				ACDEE09D18C2BE7B001556DA /* FFMyScene.m in Sources */,
+				ACDEE09C18C2BE7B001556DA /* FFGameOverScene.m in Sources */,
+				ACDEE09E18C2BE7B001556DA /* FFPlayer.m in Sources */,
+				ACDEE09B18C2BE7B001556DA /* FFAppDelegate.m in Sources */,
+				ACDEE0A218C2BE7B001556DA /* main.m in Sources */,
+				ACDEE09F18C2BE7B001556DA /* FFViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AC119A7F18B186EB0043F753 /* InfoPlist.strings */ = {
+		ACDEE08318C2BE7B001556DA /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AC119A8018B186EB0043F753 /* en */,
+				ACDEE08418C2BE7B001556DA /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		AC119A8818B186EB0043F753 /* Main_iPhone.storyboard */ = {
+		ACDEE08518C2BE7B001556DA /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AC119A8918B186EB0043F753 /* Base */,
+				ACDEE08618C2BE7B001556DA /* Base */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		AC119A8B18B186EB0043F753 /* Main_iPad.storyboard */ = {
+		ACDEE08718C2BE7B001556DA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AC119A8C18B186EB0043F753 /* Base */,
+				ACDEE08818C2BE7B001556DA /* en */,
 			);
-			name = Main_iPad.storyboard;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -350,8 +335,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "fappy fart/flappy_fart-Prefix.pch";
-				INFOPLIST_FILE = "fappy fart/flappy_fart-Info.plist";
+				GCC_PREFIX_HEADER = "flappy_fart/flappy_fart-Prefix.pch";
+				INFOPLIST_FILE = "flappy_fart/flappy_fart-Info.plist";
 				PRODUCT_NAME = flappy_fart;
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -364,8 +349,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "fappy fart/flappy_fart-Prefix.pch";
-				INFOPLIST_FILE = "fappy fart/flappy_fart-Info.plist";
+				GCC_PREFIX_HEADER = "flappy_fart/flappy_fart-Prefix.pch";
+				INFOPLIST_FILE = "flappy_fart/flappy_fart-Info.plist";
 				PRODUCT_NAME = flappy_fart;
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
