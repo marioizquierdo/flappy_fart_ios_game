@@ -83,8 +83,8 @@
     food.physicsBody.collisionBitMask = 0; // indicates what categories of objects this object that the physics engine handle contact responses to (i.e. bounce off of). We do noghint here (0)
     
     // Determine where to spawn the food along the Y axis
-    int minY = food.size.height / 2;
-    int maxY = self.frame.size.height - food.size.height / 2;
+    int minY = food.size.height;
+    int maxY = self.frame.size.height - food.size.height;
     int rangeY = maxY - minY;
     int actualY = (arc4random() % rangeY) + minY;
     
@@ -94,8 +94,8 @@
     [self addChild:food];
     
     // Determine speed of the food
-    int minDuration = 2.0;
-    int maxDuration = 4.0;
+    int minDuration = 4.0;
+    int maxDuration = 5.0;
     int rangeDuration = maxDuration - minDuration;
     int actualDuration = (arc4random() % rangeDuration) + minDuration;
     
